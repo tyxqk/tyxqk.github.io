@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天依小曲库</title>
+
+
+    <style>
+        img {
+            /*响应式图片会自动适配各种尺寸的屏幕*/
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .image-container {
+            display: flex;
+            /* 使用flex布局 */
+            justify-content: center;
+            /* 图片之间等间距排列 */
+            align-items: flex-start;
+            /* 图片顶部对齐 */
+        }
+
+        .image-item {
+            text-align: center;
+            /* 文字居中 */
+            margin-right: 10px;
+            border: 2px solid #000000;
+            /*边框 */
+            padding: 0px;
+            /* 内边距*/
+            margin: 0px;
+            /* 外边距*/
+        }
+
+
+        .image-item img {
+            display: block;
+            /* 消除图片底部的默认间距 */
+            margin-bottom: 0px;
+            /* 图片与文字之间的间距 */
+        }
+
+        .image-item .caption {
+            margin: 0;
+            /* 移除段落默认的上下边距 */
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p.lty {
+            color: #66ccff;
+
+        }
+
+        p.yh {
+            color: #00ffcc;
+
+        }
+
+        p.yzl {
+            color: #ee0000;
+        }
+
+        p.yzly {
+            color: #006666;
+        }
+
+        p.zymk {
+            color: #0080ff;
+        }
+
+        p.mqx {
+            color: #ffff00;
+        }
+
+        .zitibiankuang {
+            /*字体边框*/
+            font-size: 20px;
+            text-shadow:
+                -1px -1px 0 #000000,
+                /* 左上角阴影 */
+                1px -1px 0 #000000,
+                /* 右上角阴影 */
+                -1px 1px 0 #000000,
+                /* 左下角阴影 */
+                1px 1px 0 #000000;
+            /* 右下角阴影 */
+        }
+
+        .dingbubiankuang {
+            /*顶部边框*/
+            border-top-style: solid;
+            border-color: #000000;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <div>
+
+
+        <div id="顶部logo" style="background-color:#FFA500;">
+
+            <img src="img/天依小曲库logo.png" width="400" height="100">
+        </div><br>
+
+        <div id="搜索栏" style="background-color: #ffa4a4;height:px;width:100px;float:right;">
+            <p>
+                <center>搜索栏</center>
+            </p>
+
+        </div>
+
+        <div id="通知" style="background-color: #d292f3;height:260px;width:px;clear:both;text-align:center;">
+
+        </div>
+
+        <div>
+            <a href="https://vsinger.com/vsinger" target="_blank">
+                <img src="img/vsingerlogo.png" width="258.8" height="50">
+            </a>
+        </div>
+
+        <div id="vsinger6人介绍" style="height:350px;width:px;clear:both;text-align:center;" class="image-container">
+
+
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E4%B9%90%E6%AD%A3%E7%BB%AB/6754752" target="_blank">
+                    <img src="img/乐正绫形象图.png" width="180" height="300">
+                </a>
+                <p class="caption yzl zitibiankuang dingbubiankuang">乐正绫<br><small>4月12日</small></p>
+            </div>
+
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E4%B9%90%E6%AD%A3%E9%BE%99%E7%89%99/6755182" target="_blank">
+                    <img src="img/乐正龙牙形象图.png" width="180" height="300">
+                </a>
+                <p class="caption yzly zitibiankuang dingbubiankuang">乐正龙牙<br><small>10月2日</small></p>
+            </div>
+
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E5%A2%A8%E6%B8%85%E5%BC%A6/6753870" target="_blank">
+                    <img src="img/墨清弦形象图.png" width="180" height="300">
+                </a>
+                <p class="caption mqx zitibiankuang dingbubiankuang">墨清弦<br><small>5月20日</small></p>
+            </div>
+
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E5%BE%B5%E7%BE%BD%E6%91%A9%E6%9F%AF/6754293" target="_blank">
+                    <img src="img/徵羽摩柯形象图.png"width="180" height="300">
+                </a>
+                <p class="caption zymk zitibiankuang dingbubiankuang">徵羽摩柯<br><small>12月10日</small></p>
+            </div>
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E6%B4%9B%E5%A4%A9%E4%BE%9D/6753346" target="_blank">
+                    <img src="img/洛天依形象图.png" width="180" height="300">
+                </a>
+                <p class="caption lty zitibiankuang dingbubiankuang">洛天依<br><small>7月12日</small></p>
+            </div>
+            <div class="image-item">
+                <a href="https://baike.baidu.com/item/%E8%A8%80%E5%92%8C/6454168?structureClickId=6454168" target="_blank">
+                    <img src="img/言和形象图.png" width="180" height="300">
+                </a>
+                <p class="caption yh zitibiankuang dingbubiankuang">言和<br><small>7月11日</small></p>
+            </div>
+
+
+
+
+
+        </div><br>
+
+        <div id="歌曲" style="background-color: #65c37b;height:260px;width:px;clear:both;text-align:center;">
+
+        </div><br>
+
+
+
+    </div>
+</body>
+
+</html>
